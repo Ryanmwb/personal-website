@@ -9,7 +9,7 @@ class App extends Component {
     return (
       <div className="App">
         <header>
-          <TopNavigation/>
+          <Route path="/" component={TopNavigation} />
           <Route path="/test" component={Test} />
         </header>
       </div>
