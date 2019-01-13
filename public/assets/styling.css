@@ -3,7 +3,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
-    color: white;
+    color: rgb(0, 153, 153);
 }
 
 .about {
@@ -24,8 +24,14 @@ main {
 
 .navbar {
     color: white;
+    
 }
 
 .logo {
     height: 60px;
+    border-radius: 8%;
+}
+
+.title {
+    color: white;
 }

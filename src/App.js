@@ -19,10 +19,10 @@ class App extends Component {
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
                       <li class="nav-item">
-                          <Link to="/" class="link text-light nav-link">Home</Link>
+                          <Link to="/" class="nav-link text-light link">Home</Link>
                       </li>
                       <li class="nav-item">
-                          <Link to="/test" class="link text-light nav-link">About</Link>
+                          <Link to="/test" class="nav-link text-light link">About</Link>
                       </li>
                     </ul>
                 </div>
