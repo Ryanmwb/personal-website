@@ -1,0 +1,37 @@
+.landing {
+    background-image:  url("./ocean\ background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    color: white;
+}
+
+.about {
+    background: rgb(0, 153, 153);
+    color: white;
+    height: 100%;
+}
+
+.color {
+    background: rgba(0, 153, 153, 0.55);
+    height: 100%;
+    z-index: 99;
+}
+
+main {
+    height: 100vh;
+}
+
+.navbar {
+    color: white;
+}
+
+.link {
+    color: white;
+}
+
+.image {
+    height: 100%;
+    widows: auto;
+    background-image: url(./rw.png)
+}
