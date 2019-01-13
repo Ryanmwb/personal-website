@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import {Route, Link} from 'react-router-dom';
 import './App.css';
-import Test from './components/About'
-import Landing from './components/Landing'
+import Test from './components/About';
+import Landing from './components/Landing';
+import logo from './rw.png';
 
 class App extends Component {
   render() {
@@ -11,7 +12,7 @@ class App extends Component {
         <header class="mb-0">
           <div> 
             <nav class="navbar navbar-expand lg navbar-light fixed-top text-sm pt-2 pb-2">
-                <img src="./rw.png" alt="RW logo" class="img-thumbnail logo"></img>
+                <img src={logo} alt="RW logo" class="logo"></img>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
