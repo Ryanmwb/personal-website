@@ -5,7 +5,7 @@ class Landing extends Component {
         return(
             <div class="landing">
                 <div class="color">
-                    <h1 class="display-1 pt-5">Ryan Wilhelm</h1>
+                    <h1 class="display-2 pt-5">Ryan Wilhelm</h1>
                 </div>
             </div>
         )
