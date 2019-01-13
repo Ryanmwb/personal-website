@@ -9,9 +9,9 @@ class App extends Component {
     return (
       <div className="App">
         <header class="mb-0">
-          <div > 
+          <div> 
             <nav class="navbar navbar-expand lg navbar-light fixed-top text-sm pt-2 pb-2">
-                <div class="image"></div>
+                <img src="./rw.png" alt="RW logo" class="img-thumbnail logo"></img>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
