@@ -8,10 +8,10 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header>
+        <header class="mb-5">
           <div > 
             <nav class="navbar navbar-expand lg navbar-light bg-light fixed-top">
-                <a class="navbar-brand display-6" href="/">Ryan's Site</a>
+                <Link to="/">Ryan's Site</Link>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -25,7 +25,7 @@ class App extends Component {
             </nav>
           </div>
         </header>
-        <main>
+        <main class="mt-1">
           <Route exact path="/" component={Landing}/>
           <Route path="/test" component={Test}/>
         </main>
