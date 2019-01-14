@@ -61,4 +61,7 @@ main {
     .logo{
         height: 40px;
     }
+    .tile{
+        font-size: 1em;
+    }
 }
