@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Kalam|Raleway');
-
+@import url('https://fonts.googleapis.com/css?family=Kalam:700|Palanquin:700|Raleway:700');
 .landing {
     background-image:  url("./ocean\ background.jpg");
     background-size: cover;
@@ -38,16 +37,19 @@ main {
     color: white;
     font-family:  'Raleway', sans-serif;
     text-shadow: -4px 4px 0px #00e6e6;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+
 }
 
 .slogan {
-    font-family:  'Raleway', sans-serif;
+    font-family: 'Palanquin', sans-serif;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
 
 .imagine {
     font-family: 'Kalam', cursive;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
 
     background: #FFFFFF;
     background: -moz-linear-gradient(left, #FFFFFF 0%, #00e6e6 100%);
