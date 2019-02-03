@@ -47,7 +47,7 @@ main {
     -webkit-text-stroke-color: black;
 }
 
-.box {
+#box {
 	max-width: 70vw;
 	padding: 30px;
 	margin: 0 auto;
