@@ -18,7 +18,7 @@ class Navbar extends Component {
                           <Link to="/" class="nav-link text-light link">Home</Link>
                       </li>
                       <li class="nav-item">
-                          <Link to="/test" class="nav-link text-light link">About</Link>
+                          <Link to="/about" class="nav-link text-light link">About</Link>
                       </li>
                     </ul>
                 </div>

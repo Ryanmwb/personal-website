@@ -47,6 +47,22 @@ main {
     -webkit-text-stroke-color: black;
 }
 
+.box {
+	max-width: 70vw;
+	padding: 30px;
+	margin: 0 auto;
+	position: relative;
+	top: 50%;
+	font-size: 30px;
+	line-height: 1.5;
+	transform: translateY(-50%);
+	perspective: 400px;
+}
+
+body{
+    overflow: hidden;
+}
+
 .imagine {
     font-family: 'Kalam', cursive;
 
