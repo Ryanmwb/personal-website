@@ -36,10 +36,9 @@ main {
 .title {
     color: white;
     font-family:  'Raleway', sans-serif;
-    text-shadow: -4px 4px 0px #00e6e6;
+    text-shadow: -4px 4px 0px #00d6e6;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
-
 }
 
 .slogan {
